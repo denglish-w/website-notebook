@@ -15,10 +15,12 @@ h1 {
 
 }
 
-.code {
-    background-color: tan;
+.code-snippet {
+  background-color: #4E576A; 
+  color: white;
 }
 
 .code-example {
-  background-color: #181a26
+  background-color: #181a26;
+  color: white;
 }
