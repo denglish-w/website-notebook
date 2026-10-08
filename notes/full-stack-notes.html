@@ -4,6 +4,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../styling/full-stack-notes.css">
 </head>
 
 <h1>Full Stack Developer Notebook</h1>
@@ -15,12 +17,12 @@
 </div>
 
 
-<h1>CSS</h1>
-
+<h2>CSS</h2>
 <div>
-    <h2>CSS Flexbox</h2>
     <div>
-        <h2>CSS Flexbox</h2>
+        <div>
+            <h2>CSS Flexbox</h2>
+        </div>
         <p>
             The CSS property <code>display: flex</code> sets an HTML element as a block level flex container which takes the full width of its parent container. Child elements that are inside the flex container are called flex items. 
         </p>
@@ -29,13 +31,38 @@
         </p> 
     </div>
     <div>
-        <h2><code>justify-content</code></h2>
+        <h3><code>justify-content</code></h3>
         <p>
             justify-content defines how the browser distributes space between and around content items
         </p>
+            <div>
+                <ul>
+                    <p>
+                        <code>Justify content</code> can have the values of below
+                    </p>
+                    <li>flex-start</li>
+                    <li>flex-end</li>
+                    <li>center</li>
+                    <li>space-between</li>
+                    <li>space-around</li>
+                </ul>
+            </div>
+    </div>
+    <div>
+        <h3><code>flex-direction</code> Property</h3>
+        <p>
+            The <code>flex direction</code> property specifies how flex itsm are to be places in the flex container, whether vertically or horizontally. This property determines also whether the flex items appear in order or reverse order. 
+        </p>
+        <div>
+        <pre><code>
+        div {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+            </code></pre>
+        </div>
     </div>
 </div>
-
 
 
 
